@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Prueba de Formulario Local</title>
+  </head>
+  <body>
+    <h2>Regístrate para una sorpresa</h2>
+
+    <form id="miFormulario">
+      <label>Nombre: </label>
+      <input
+        type="text"
+        id="Nom"
+        name="campoNombre"
+        placeholder="Tu nombre..."
+        required
+      />
+    </br>
+      <label>Apellido Paterno: </label>
+      <input
+        type="text"
+        name="campoApellidoPaterno"
+        id="AP"
+        placeholder="Tu ApellidoPaterno..."
+        required
+      />
+     </br>
+      <label>Apellido Materno: </label>
+      <input
+        type="text"
+        id="AM"
+        name="campoApellidoMaterno"
+        placeholder="Tu ApellidoMaterno..."
+        required
+      />
+     </br>
+      <label>Email: </label>
+      <input
+        type="email"
+        id="Em"
+        name="campoEmail"
+        placeholder="TuEmail..."
+        required
+      />  
+  </br>
+      <button type="submit">Generar Invitación</button>
+    </form>
+
+    <div id="resultado" style="margin-top: 20px; color: black"></div>
+
+    <script>
+        
+            const formulario = document.getElementById("miFormulario");
+            const visor = document.getElementById("resultado");
+
+            formulario.addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            const datos = new FormData(formulario);
+            const nombre = datos.get("campoNombre");
+            const ApellidoMaterno = datos.get("campoApellidoMaterno");
+            const ApellidoPaterno = datos.get("campoApellidoPaterno");
+            const correo = datos.get("campoEmail"); 
+
+            const titulo = document.createElement("h1");
+            titulo.innerText = "¡Felicidades! Eres digno de ser invitado"
+
+            const saludo = document.createElement("p");
+            saludo.innerText = "Hola " + nombre + " " + ApellidoPaterno + " " + ApellidoMaterno + "." + " Celebraré mi cumpleaños no. 24 próximamente y me encantaría que asistieras.";
+
+            const mensajeCorreo = document.createElement("p");
+            mensajeCorreo.innerText = "Por favor confirma en la invitación que llegó a tu correo " + correo;
+    
+           const imagen = document.createElement("img");
+            imagen.src = "https://www.thiings.co/_next/image?url=https%3A%2F%2Flftz25oez4aqbxpq.public.blob.vercel-storage.com%2Fimage-eXla7haAL6WXQf5yyiHfluynFPBLfB.png&w=1000&q=75";
+            imagen.alt = "Imagen de cumpleaños";
+            imagen.width = 300;
+
+            visor.innerHTML = ""; 
+            visor.appendChild(imagen);
+            visor.appendChild(titulo);
+            visor.appendChild(saludo);
+            visor.appendChild(mensajeCorreo);
+
+        });
+      
+    </script>
+  </body>
+</html>
