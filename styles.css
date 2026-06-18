@@ -1,8 +1,12 @@
+.header {
+  text-align: center;
+}
+
 body {
   background-color: #faf5ea;
   color: #2e2e2e;
   font-family: "Montserrat", sans-serif;
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 40px 20px;
 }
@@ -49,6 +53,7 @@ footer {
   color: #aaa;
 }
 
-.header {
-  text-align: center;
+html {
+  background-color: #faf5ea;
 }
+
