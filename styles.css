@@ -6,11 +6,22 @@ body {
   background-color: #ffffff;
   color: #2e2e2e;
   font-family: "Montserrat", sans-serif;
-  max-width: 800px;
   margin: 0 auto;
   padding: 40px 20px;
 }
 
+#FotosIntro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  margin-top: 50px;
+}
+
+.img-basic {
+  width: 45%;
+  border-radius: 8px;
+}
 
 h1 {
   font-size: 2rem;
@@ -30,6 +41,21 @@ h3 {
   color: #1a1a1a;
   font-weight: 400;
   margin-bottom: 16px;
+}
+
+.ContenedorQuotes {
+  text-align: center;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.textoPequeño {
+  font-size: 1 rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.7;
+  letter-spacing: 0.005rem;
+  text-align: center;
+  color: #000000;
 }
 
 p {
