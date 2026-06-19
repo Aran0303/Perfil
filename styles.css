@@ -24,24 +24,9 @@ body {
   border-radius: 8px;
 }
 
-.mis-proyectos {
-  display: flex; /* Pone las tarjetas una al lado de la otra */
-  justify-content: center; /* Las centra */
-  gap: 20px; /* Espacio entre ellas */
-  padding: 20px;
-}
-
-.tarjeta-simple {
-  width: 600px; /* Un tamaño fijo para que no se vean aplastadas */
-  padding: 20px;
-  border: 2px solid #ddd; /* Un borde visible para que sepas qué es la tarjeta */
-  border-radius: 10px; /* Esquinas redondeadas */
-  text-align: center; /* Todo el texto dentro de la tarjeta se centra */
-}
-
 h1 {
   font-size: 2rem;
-  color: #1a1a1a;
+color: #781080;
   margin-bottom: 4%px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -50,7 +35,7 @@ h1 {
 
 .h1Páginas {
   font-size: 2rem;
-  color: #1a1a1a;
+  color: #5b0a61;
   margin-bottom: 2%;
   margin-left: 5%;
   font-family: "Montserrat", sans-serif;
@@ -60,7 +45,7 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
-  color: #000000;
+  color: #891991;;
   font-weight: 500;
   margin-left: 10%;
   margin-bottom: 12px;
@@ -68,7 +53,7 @@ h2 {
 
 h3 {
   font-size: 1rem;
-  color: #1a1a1a;
+  color: #5f5252;
   font-weight: 400;
   margin-bottom: 5%px;
 }
@@ -99,7 +84,7 @@ h3 {
 .card {
   border: 1px solid #ccc;
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 12px #00000014;
 }
 
 .card-img-top {
