@@ -3,20 +3,12 @@
 }
 
 body {
-  background-color: #faf5ea;
+  background-color: #ffffff;
   color: #2e2e2e;
   font-family: "Montserrat", sans-serif;
   max-width: 800px;
   margin: 0 auto;
   padding: 40px 20px;
-}
-
-.títuloSecciónCard {
-  margin-left: 10px;
-}
-
-.subtítuloSecciónCard {
-  margin-left: 30px;
 }
 
 
