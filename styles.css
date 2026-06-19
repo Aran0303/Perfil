@@ -69,6 +69,9 @@ h3 {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
+.card-title {
+  font-weight: 700;
+}
 .card-img-top {
   height: 220px;
   object-fit: cover;
