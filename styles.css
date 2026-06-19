@@ -1,5 +1,6 @@
 .header {
   text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -15,7 +16,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 2px;
-  margin-top: 50px;
+  margin-top: 5%;
 }
 
 .img-basic {
@@ -23,21 +24,45 @@ body {
   border-radius: 8px;
 }
 
+.mis-proyectos {
+  display: flex; /* Pone las tarjetas una al lado de la otra */
+  justify-content: center; /* Las centra */
+  gap: 20px; /* Espacio entre ellas */
+  padding: 20px;
+}
+
+.tarjeta-simple {
+  width: 600px; /* Un tamaño fijo para que no se vean aplastadas */
+  padding: 20px;
+  border: 2px solid #ddd; /* Un borde visible para que sepas qué es la tarjeta */
+  border-radius: 10px; /* Esquinas redondeadas */
+  text-align: center; /* Todo el texto dentro de la tarjeta se centra */
+}
+
 h1 {
   font-size: 2rem;
   color: #1a1a1a;
-  margin-bottom: 4px;
+  margin-bottom: 4%px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   padding: 10px 20px;
 }
 
+.h1Páginas {
+  font-size: 2rem;
+  color: #1a1a1a;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  padding: 10px 20px;
+}
 
 h2 {
-  font-size: 2 rem;
-  text-align: center;
-  color: #000;
-  font-weight: 700;
+  font-size: 1.5rem;
+  color: #000000;
+  font-weight: 500;
+  margin-left: 10%;
   margin-bottom: 12px;
 }
 
@@ -45,7 +70,7 @@ h3 {
   font-size: 1rem;
   color: #1a1a1a;
   font-weight: 400;
-  margin-bottom: 16px;
+  margin-bottom: 5%px;
 }
 
 .ContenedorQuotes {
@@ -54,6 +79,10 @@ h3 {
   margin: 0 auto;
 }
 
+.carousel-small .carousel-item img {
+  height: 70vh;
+  object-fit: cover;
+}
 .textoPequeño {
   font-size: 1 rem;
   font-family: "Montserrat", sans-serif;
@@ -63,15 +92,16 @@ h3 {
   color: #000000;
 }
 
+.card-title {
+  font-weight: 700;
+}
+
 .card {
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
-.card-title {
-  font-weight: 700;
-}
 .card-img-top {
   height: 220px;
   object-fit: cover;
@@ -85,8 +115,8 @@ p {
 }
 
 .textoIntro {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 a {
@@ -96,7 +126,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 
 #FootText {
@@ -104,12 +134,12 @@ a:hover {
 }
 
 footer {
-  margin-top: 40px;
+  margin-top: 2%;
   font-size: 0.8rem;
   color: #aaa;
 }
 
 html {
-  background-color: #fffff;
+  background-color: #ffffff;
 }
 
