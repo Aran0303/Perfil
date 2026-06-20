@@ -26,7 +26,7 @@ body {
 
 h1 {
   font-size: 2rem;
-  color: #781080;
+  color: #116f51;
   margin-bottom: 4%px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -35,7 +35,7 @@ h1 {
 
 .h1Páginas {
   font-size: 2rem;
-  color: #5b0a61;
+  color: #116f51;
   margin-bottom: 2%;
   margin-left: 5%;
   font-family: "Montserrat", sans-serif;
@@ -45,7 +45,7 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
-  color: #891991;
+  color: #19916b;
   font-weight: 500;
   margin-left: 10%;
   margin-bottom: 12px;
@@ -98,7 +98,6 @@ p {
   line-height: 1.7;
   margin-bottom: 12px;
 }
-
 .BadgeG {
   font-size: 1rem;
   padding: 10px 20px;
@@ -106,7 +105,7 @@ p {
   font-weight: 400;
   background-color: #79bfb0 !important;
   color: #ffffff !important;
-
+}
 .textoIntro {
   margin-left: 5%;
   margin-right: 5%;
@@ -135,4 +134,3 @@ footer {
 html {
   background-color: #ffffff;
 }
-
